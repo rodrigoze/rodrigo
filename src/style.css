@@ -1,0 +1,92 @@
+*{
+    font-family: Assistant;
+    margin:0;
+    padding:0;
+}
+body{
+    height:100vh; margin:0;
+    display:flex; 
+    flex-direction:column; 
+}
+#menu{
+    display:none;
+  }
+  #contact{
+    display:none;
+  }
+  #header{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: antiquewhite;
+    margin:0;
+    padding:5px;
+  }
+
+  #navone,#navtwo,#navthree{
+    font-weight:200;
+    font-size: 22px;
+  }
+
+
+#content{
+    margin-top:50px;
+    
+}
+#home{
+    background-color: lightpink;
+    padding:30px;
+    width: 300px;
+    height: 100px;
+    margin:auto;
+}
+#txt
+{
+    font-weight: 200;
+    font-size: 16px;
+}
+
+#footer{
+    background-color: antiquewhite;
+    padding:15px;
+    text-align:center;
+    margin-top:auto; 
+}
+#foot{
+    font-weight: 200;
+    font-size: 18px;
+}
+#logo{
+    font-size:20px;
+    font-weight: 200;
+}
+#navone{
+    font-weight: 800;
+}
+#menu,#contact{
+    background-color: lightpink;
+    padding:30px;
+    width: 300px;
+    height: 100px;
+    margin:auto;
+}
+#main{
+    display:flex;
+    flex-flow: column;
+justify-content: space-around;
+}
+#sun{
+    width:100px;
+    height:auto;
+    grid-column: 1-2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+#dish
+{
+    width:75%;
+}
+#price{
+    font-weight:200;
+    width:25%;
+}
